@@ -1,0 +1,12 @@
+'phoneSimulation.py' -> Runs the phone 
+'server.py' -> Runs server
+
+Both these files need 'client.py' for the mqtt and http protocols. Server.py has more files that it depends on, such as 'chargers.py' and 'car.py'
+
+When running the code, they will both ask for an ip address, make sure to input the same one. Car.py will also ask you for a initial battery level in order to start the simulation. If the server is not online and you try to connect via the phone it is just going to say the sign in information is wrong. 
+
+We have created four valid users for sign in, they also have car_id's already defined:
+{"tarik": ["tarikpass", "ABC123"], "henny":["hennypass", "BBB123"],
+         "magnus":["magnuspass", "ZZZ123"], "mie":["miepass", "Z123"] }
+
+Any other input will result in a error message.
