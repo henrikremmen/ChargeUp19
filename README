@@ -10,3 +10,10 @@ We have created four valid users for sign in, they also have car_id's already de
          "magnus":["magnuspass", "ZZZ123"], "mie":["miepass", "Z123"] }
 
 Any other input will result in a error message.
+
+These are the following external libraries that use:
+- STMPY
+- PYGAME
+- PAHO
+- PIL
+- tkinter
