@@ -5,7 +5,7 @@ Both these files need 'client.py' for the mqtt and http protocols. Server.py has
 
 When running the code, they will both ask for an ip address, make sure to input the same one. Car.py will also ask you for a initial battery level in order to start the simulation. If the server is not online and you try to connect via the phone it is just going to say the sign in information is wrong. 
 
-We have created four valid users for sign in, they also have car_id's already defined:
+We have created four valid users for sign in, they also have car_id's already defined (the first value in the array is the passsword while the second one is the car id):
 {"tarik": ["tarikpass", "ABC123"], "henny":["hennypass", "BBB123"],
          "magnus":["magnuspass", "ZZZ123"], "mie":["miepass", "Z123"] }
 
