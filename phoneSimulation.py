@@ -60,16 +60,12 @@ class ChargeUpApp:
               "target": "charge",
               "effect": "charging_screen"}
 
-        t4 = {"trigger": "CB", 
-              "source": "charge",
-              "target": "charge",}
-
-        t5 = {"trigger": "PB", 
+        t4 = {"trigger": "PB", 
               "source": "charge",
               "target": "login",
               "effect": "reset_and_goto_login"}
 
-        machine = Machine(name='chargeUp', transitions=[t0, t1, t2, t3, t4, t5], obj=self)
+        machine = Machine(name='chargeUp', transitions=[t0, t1, t2, t3, t4], obj=self)
         self.stm = machine
 
         driver = Driver()
